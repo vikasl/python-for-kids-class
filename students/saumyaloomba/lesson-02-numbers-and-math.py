@@ -1,5 +1,6 @@
-# Let's do some math!
-print(5 + 3)
-print(10 - 4)
-print(3 * 7)
-print(20 / 4)
+# Let's work with random numbers
+import random
+
+roll = random.randint(1,6)
+
+print("You rolled:", roll)
