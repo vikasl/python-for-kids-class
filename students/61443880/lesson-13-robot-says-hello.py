@@ -16,7 +16,12 @@ async def main():
 
     # Turn off all 25 LEDs
     light_matrix.clear()
-
+    light_matrix.show_image(light_matrix.IMAGE_ANGRY)
+    await runloop.sleep_ms(2000)
+    light_matrix.clear()
+    light_matrix.show_image(light_matrix.IMAGE_BUTTERFLY)
+    await runloop.sleep_ms(2000)
+    light_matrix.clear()
     # Send a message to the computer screen
     print("Hello from your SPIKE Prime robot!")
 
