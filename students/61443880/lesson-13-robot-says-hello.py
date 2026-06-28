@@ -1,6 +1,6 @@
 # Import the light_matrix so we can control the 5x5 LED display on the hub
 from hub import light_matrix
-# Import runloop so we can use sleep_ms() for waiting
+# Import runloop so we can use sleep_ms() for waiting with my additional comment
 import runloop
 
 # Every SPIKE Prime 3 program puts its code inside an async function called main()
