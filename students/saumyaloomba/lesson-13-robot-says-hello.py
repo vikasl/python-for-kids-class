@@ -12,12 +12,6 @@ async def main():
 
     # Wait 2 seconds (2000 milliseconds) so we can see the image
     # Always use "await" before runloop.sleep_ms()
-    await runloop.sleep_ms(2000)  
-    light_matrix.show_image(light_matrix.IMAGE_ANGRY)
-   
-    await runloop.sleep_ms(2000)
-    light_matrix.show_image(light_matrix.IMAGE_DIAMOND)
-
     await runloop.sleep_ms(2000)
 
     # Turn off all 25 LEDs
@@ -28,4 +22,3 @@ async def main():
 
 # This line actually starts your program — always put it at the very end!
 runloop.run(main())
-   
