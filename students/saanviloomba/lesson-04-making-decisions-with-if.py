@@ -1,6 +1,6 @@
 import random
 flip = random.choice(["Heads", "Tails"])
 if flip == "Heads":
-       print("🟡 HEADS!")
+       print(" HEADS!")
 else:
-       print("⚪ TAILS!")
+       print(" TAILS!")
